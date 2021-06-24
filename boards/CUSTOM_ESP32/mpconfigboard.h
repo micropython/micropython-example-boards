@@ -1,0 +1,2 @@
+#define MICROPY_HW_BOARD_NAME "Custom ESP32 board"
+#define MICROPY_HW_MCU_NAME "ESP32"
