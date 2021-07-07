@@ -1,7 +1,10 @@
-MicroPython custom boards
-=========================
+MicroPython example boards
+==========================
 
-This repository shows how to define custom MicroPython boards.
+This repository is an example of how to define custom MicroPython boards
+with custom Python and C modules.  The core MicroPython repository is a
+submodule and other code, including board definitions, is part of this
+repository.
 
 To set up MicroPython, check out the submodule and build `mpy-cross`:
 
