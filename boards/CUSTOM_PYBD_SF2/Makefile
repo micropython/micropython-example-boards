@@ -30,5 +30,12 @@ firmware:
 		BOARD_DIR=$(BOARD_DIR) \
 		BUILD=$(BUILD)
 
+mboot:
+	$(Q)$(MAKE) -C $(MICROPY_TOP)/ports/stm32/mboot \
+		PROJECT_TOP=$(abspath ../..) \
+		BOARD=$(BOARD) \
+		BOARD_DIR=$(BOARD_DIR) \
+		BUILD=$(BUILD)-mboot
+
 deploy:
 	$(PYTHON) $(MICROPY_TOP)/tools/pydfu.py -u $(BUILD)/firmware.dfu
