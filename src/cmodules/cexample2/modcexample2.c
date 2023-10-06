@@ -18,4 +18,4 @@ const mp_obj_module_t example_user_cmodule2 = {
     .globals = (mp_obj_dict_t *)&example_module_globals,
 };
 
-MP_REGISTER_MODULE(MP_QSTR_cexample2, example_user_cmodule2, 1);
+MP_REGISTER_MODULE(MP_QSTR_cexample2, example_user_cmodule2);

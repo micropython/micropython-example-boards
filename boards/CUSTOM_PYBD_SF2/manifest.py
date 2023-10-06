@@ -1,1 +1,1 @@
-include("$(MPY_DIR)/extmod/uasyncio/manifest.py")
+include("$(MPY_DIR)/extmod/asyncio/manifest.py")
